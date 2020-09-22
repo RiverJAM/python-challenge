@@ -1,1 +1,1 @@
-Financial Analysis The number of months is 86 The total P/L is 38382578The average change is -2315.1176470588234 Greatest Increase: 1926159 Greatest Decrease: -2196167
+Financial Analysis The number of months is 86 The total P/L is 38382578The average change is -2315.1176470588234 Greatest Increase in profits: 1926159 Greatest Decrease in profits: -2196167
