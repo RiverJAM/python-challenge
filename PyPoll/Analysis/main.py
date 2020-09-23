@@ -90,9 +90,14 @@ with open(csvpath) as csvfile:
 
     import sys
 sys.stdout = open('analysisPoll.txt', 'w')
-print('Election Results' + '----------------------' + "Total number votes:  " + str(Total_Votes) + '------------------------' + 'Khan ' + str(Khan_percentage) + '% ' + '(' + str(Khan_votes) + ')' + 'Correy ' + str(Correy_percentage) + '% ' + '(' + str(Correy_votes) + ')' +
-'Li ' + str(Li_percentage) + '% ' + '(' + str(Li_votes) + ')' +
-"O'Tooley " + str(Tooley_percentage) +'% ' + '(' + str(Tooley_votes) + ')' +
-'------------------' +
-'Winner: ' + str(Winning_C) +
+print('Election Results' + '\n' +
+'----------------------' + '\n' + 
+"Total number votes:  " + str(Total_Votes) + '\n' +
+'------------------------' + '\n' +
+'Khan ' + str(Khan_percentage) + '% ' + '(' + str(Khan_votes) + ')' + '\n' +
+'Correy ' + str(Correy_percentage) + '% ' + '(' + str(Correy_votes) + ')' + '\n' +
+'Li ' + str(Li_percentage) + '% ' + '(' + str(Li_votes) + ')' + '\n' +
+"O'Tooley " + str(Tooley_percentage) +'% ' + '(' + str(Tooley_votes) + ')' + '\n' +
+'------------------' + '\n' +
+'Winner: ' + str(Winning_C) + '\n'
 '-------------------')
