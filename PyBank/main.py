@@ -58,9 +58,10 @@ with open(csvpath) as f:
 #create a tx doc to save the output
 import sys
 sys.stdout = open('analysis.txt', 'w')
-print( 'Financial Analysis' +
-    " The number of months is " + str(lenny) + 
-    ' The total P/L is ' + str(SummaPL) +
-    'The average change is ' + str(avgDelta) +
-    ' Greatest Increase in profits: ' + str(max(Delta)) +
-    ' Greatest Decrease in profits: ' + str(min(Delta)))
+print( 'Financial Analysis' + "\n" +
+"----------------------------" + "\n" +
+    "Total Months: " + str(lenny) + "\n" +
+    'Total: ' + str(SummaPL) + "\n" +
+    'The average change is ' + str(avgDelta) + "\n" +
+    'Greatest Increase: ' + str(max(Delta)) + "\n" +
+    'Greatest Decrease: ' + str(min(Delta)))
